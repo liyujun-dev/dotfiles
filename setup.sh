@@ -1,0 +1,10 @@
+#!/bin/bash
+
+BASE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" &>/dev/null && pwd)"
+CONFIG_HOME="$HOME/.config"
+
+ln -snf $BASE_DIR/config/nvim $CONFIG_HOME/nvim
+ln -snf $BASE_DIR/config/starship/starship.toml $CONFIG_HOME/starship.toml
+ln -snf $BASE_DIR/config/zellij $CONFIG_HOME/zellij
+ln -snf $BASE_DIR/config/alacritty $CONFIG_HOME/alacritty
+ln -snf $BASE_DIR/config/lazygit $CONFIG_HOME/lazygit
