@@ -5,6 +5,7 @@ CONFIG_HOME="$HOME/.config"
 
 [ -d "$CONFIG_HOME" ] || mkdir $CONFIG_HOME
 ln -snf $BASE_DIR/bashrc $HOME/.bashrc && source $HOME/.bashrc
+ln -snf $BASE_DIR/inputrc $HOME/.inputrc
 ln -snf $BASE_DIR/config/nvim $CONFIG_HOME/nvim
 ln -snf $BASE_DIR/config/starship/starship.toml $CONFIG_HOME/starship.toml
 ln -snf $BASE_DIR/config/zellij $CONFIG_HOME/zellij
