@@ -1,3 +1,4 @@
+export ZELLIJ_AUTO_ATTACH=true
 alias vi="nvim"
 alias lg="lazygit"
 
