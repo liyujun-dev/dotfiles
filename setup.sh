@@ -14,4 +14,5 @@ ln -snf $BASE_DIR/.config/alacritty $CONFIG_HOME/alacritty
 ln -snf $BASE_DIR/.config/lazygit $CONFIG_HOME/lazygit
 ln -snf $BASE_DIR/.config/mise $CONFIG_HOME/mise
 ln -snf $BASE_DIR/.config/kitty $CONFIG_HOME/kitty
+ln -snf $BASE_DIR/.config/tmux $CONFIG_HOME/tmux
 ln -snf $BASE_DIR/gitconfig $HOME/.gitconfig
