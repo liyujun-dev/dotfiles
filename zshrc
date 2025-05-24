@@ -32,3 +32,7 @@ alias lla="ll -a"
 alias lg="lazygit"
 alias k="kubectl"
 alias icat="kitten icat"
+
+if [ -x "$(command -v tmux)" ] && [ -z "${TMUX}" ]; then
+    exec tmux new-session -A -s ${USER} >/dev/null 2>&1
+fi
