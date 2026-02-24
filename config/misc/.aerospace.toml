@@ -75,6 +75,9 @@ on-mode-changed = []
     if.app-id = 'com.tencent.xinWeChat'
     run = ['layout accordion horizontal', 'move-node-to-workspace 2']
 [[on-window-detected]]
+    if.app-id = 'com.netease.macmail'
+    run = ['layout accordion horizontal', 'move-node-to-workspace 2']
+[[on-window-detected]]
     if.app-name-regex-substring = 'Cursor'
     run = ['layout accordion vertical', 'move-node-to-workspace 3']
 [[on-window-detected]]
