@@ -1,5 +1,7 @@
 os:
-  editPreset: 'nvim'
+  editPreset: 'vim'
+git:
+  overrideGpg: true
 gui:
   # use the mocha catppuccin theme
   theme:
