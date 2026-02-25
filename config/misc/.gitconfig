@@ -1,4 +1,6 @@
 [user]
-  name = Yujun Li
+	name = Eugene Li
   email = liyujun@zohomail.com
   username = liyujun-dev
+[gpg]
+	program = /opt/homebrew/bin/gpg

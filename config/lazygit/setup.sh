@@ -6,7 +6,6 @@ if ! command -v lazygit >/dev/null 2>&1; then
   brew install lazygit
 fi
 
-[ -d "${HOME}/.config/lazygit" ] || mkdir ${HOME}/.config/lazygit
-ln -snf ${BASE_DIR}/* ${HOME}/.config/lazygit
+ln -snf ${BASE_DIR}/config.yml "${HOME}/Library/Application Support/lazygit/config.yml"
 
 echo "Lazygit installed"
