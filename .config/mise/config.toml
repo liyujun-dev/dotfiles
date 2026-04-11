@@ -1,3 +1,9 @@
 [tools]
 node = "lts"
-go = "1.23"
+go = "latest"
+uv = "latest"
+
+[settings]
+idiomatic_version_file_enable_tools = ["python"]
+python.uv_venv_auto = true
+experimental = true
