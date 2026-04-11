@@ -79,7 +79,10 @@ on-mode-changed = []
     run = ['layout accordion horizontal', 'move-node-to-workspace 2']
 [[on-window-detected]]
     if.app-name-regex-substring = 'Cursor'
-    run = ['layout accordion vertical', 'move-node-to-workspace 3']
+    run = ['layout accordion vertical', 'move-node-to-workspace 9']
+[[on-window-detected]]
+    if.app-id = 'com.microsoft.VSCodeInsiders'
+    run = ['layout accordion vertical', 'move-node-to-workspace 9']
 [[on-window-detected]]
     if.app-id = 'com.microsoft.rdc.macos'
     run = ['layout accordion vertical', 'move-node-to-workspace Z']
