@@ -7,7 +7,7 @@ CONFIG_HOME="$HOME/.config"
 ln -snf $BASE_DIR/bashrc $HOME/.bashrc
 ln -snf $BASE_DIR/zshrc $HOME/.zshrc
 ln -snf $BASE_DIR/inputrc $HOME/.inputrc
-ln -snf $BASE_DIR/brewfile $HOME/.Brewfile
+ln -snf $BASE_DIR/brewfile $HOME/Brewfile
 ln -snf $BASE_DIR/.config/nvim $CONFIG_HOME/nvim
 ln -snf $BASE_DIR/.config/starship/starship.toml $CONFIG_HOME/starship.toml
 ln -snf $BASE_DIR/.config/lazygit $CONFIG_HOME/lazygit
