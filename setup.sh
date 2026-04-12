@@ -16,4 +16,5 @@ sh ${BASE_DIR}/config/starship/setup.sh
 sh ${BASE_DIR}/config/kitty/setup.sh
 sh ${BASE_DIR}/config/mise/setup.sh
 sh ${BASE_DIR}/config/lazygit/setup.sh
+sh ${BASE_DIR}/config/macos/setup.sh
 sh ${BASE_DIR}/config/misc/setup.sh

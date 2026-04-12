@@ -1,4 +1,4 @@
-cask "1password"
+cask "bitwarden"
 cask "font-maple-mono"
 cask "font-maple-mono-nf"
 cask "font-maple-mono-nf-cn"
@@ -6,6 +6,7 @@ cask "spotify"
 cask "nikitabobko/tap/aerospace"
 cask "orbstack"
 cask "shottr"
+
 brew "eza"
 brew "mole"
 brew "btop"

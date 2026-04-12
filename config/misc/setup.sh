@@ -6,6 +6,7 @@ ln -snf ${BASE_DIR}/.zshrc ${HOME}/.zshrc
 ln -snf ${BASE_DIR}/.gitconfig ${HOME}/.gitconfig
 ln -snf ${BASE_DIR}/.aerospace.toml ${HOME}/.aerospace.toml
 ln -snf ${BASE_DIR}/.vimrc ${HOME}/.vimrc
+ln -snf ${BASE_DIR}/ssh_config ${HOME}/.ssh/config
 
 brew bundle --file=${BASE_DIR}/brewfile
 echo "Miscellaneous installed"
