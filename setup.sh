@@ -5,7 +5,9 @@ CONFIG_HOME="$HOME/.config"
 
 # Initialization
 [ -d "${CONFIG_HOME}" ] || mkdir ${CONFIG_HOME}
-if [ ! command -v brew >/dev/null 2>&1 ]; then
+if command -v brew >/dev/null 2>&1; then
+  echo "Homebrew installed"
+else
   echo "Installing Homebrew"
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
   echo "Homebrew Installed"
@@ -18,3 +20,4 @@ sh ${BASE_DIR}/config/mise/setup.sh
 sh ${BASE_DIR}/config/lazygit/setup.sh
 sh ${BASE_DIR}/config/macos/setup.sh
 sh ${BASE_DIR}/config/misc/setup.sh
+sh ${BASE_DIR}/config/opencode/setup.sh

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "paykka": {
+      "options": {
+        "baseURL": "https://token-fat.paykka.com/v1"
+      },
+      "models": {
+        "claude-opus-4-7": {
+          "id": "claude-opus-4-7",
+          "name": "Claude Opus 4.7"
+        },
+        "claude-opus-4-6": {
+          "id": "claude-opus-4-6",
+          "name": "Claude Opus 4.6"
+        },
+        "claude-sonnet-4-6": {
+          "id": "claude-sonnet-4-6",
+          "name": "Claude Sonnet 4.6"
+        },
+        "claude-haiku-4-5": {
+          "id": "claude-haiku-4-5",
+          "name": "Claude Haiku 4.5"
+        },
+        "glm-5.1": {
+          "id": "GLM-5.1",
+          "name": "GLM 5.1"
+        },
+        "deepseek-v4": {
+          "id": "deepseek-v4-pro",
+          "name": "DeepSeek V4 Pro"
+        }
+      }
+    }
+  },
+  "mcp": {
+    "context7": {
+      "type": "remote",
+      "url": "https://mcp.context7.com/mcp",
+      "enabled": true,
+      "headers": {
+        "CONTEXT7_API_KEY": "ctx7sk-7ecc97c1-1178-4d77-bb2f-e9fcbc6ab691"
+      }
+    }
+  }
+}

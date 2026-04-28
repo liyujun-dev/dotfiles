@@ -4,6 +4,6 @@ python.uv_venv_auto = true
 experimental = true
 
 [tools]
-aws-cli = { version = "latest", symlink_bins = "true" }
 go = "latest"
 node = "22"
+watchexec = "latest"

@@ -19,7 +19,10 @@ alias lg="lazygit"
 alias k="kubectl"
 alias icat="kitten icat"
 alias vi="vim"
+alias code="code-insiders"
 
 eval "$(/opt/homebrew/bin/brew shellenv)"
 command_exists "starship" && eval "$(starship init zsh)"
 command_exists "mise" && eval "$(mise activate zsh)"
+
+export SSH_AUTH_SOCK=/Users/${USER}/.bitwarden-ssh-agent.sock
